@@ -97,7 +97,7 @@ pub fn render() {
 
         field_element.set_inner_text({
           if pos == game.food {
-            "🔆"
+            "🔆" // funguj ty mamrde
           } else if game.snake.get(0) == Some(&pos) {
             "🦀"
           } else if game.snake.contains(&pos) {
